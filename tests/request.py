@@ -21,11 +21,14 @@ if response.status_code == 200:
         title_element = element.find("div", class_="title")
         title = title_element.text.strip()
         date = element.find("div", class_="date").text.strip()
-        link = title_element.a["href"]
+        try :
+            link = title_element.a["href"]
+        except TypeError:
+            pass
         # 打印标题和日期
         # print("标题:", title)
         # print("日期:", date)
-        # print("https://www.ptt.cc"+link)
+        print("https://www.ptt.cc"+link)
 
         # 创建包含数据的字典
         data = {
@@ -39,6 +42,6 @@ if response.status_code == 200:
 
     # 打印JSON数据
     # print(json_data)
-    print(lists[0]['title'])
+    # print(lists[0]["link"])
     # for i in json_data:
     #     print("https://www.ptt.cc"+i)

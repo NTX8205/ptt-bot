@@ -38,7 +38,10 @@ def ptt_crawler():
             title_element = element.find("div", class_="title")
             title = title_element.text.strip()
             date = element.find("div", class_="date").text.strip()
-            link = title_element.a["href"]
+            try :
+                link = title_element.a["href"]
+            except Exception:
+                pass
 
             # 创建包含数据的字典
             data = {
