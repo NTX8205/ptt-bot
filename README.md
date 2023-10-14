@@ -5,6 +5,7 @@
 ## 虛擬環境建置
 
 > 請先確定終端機、建置位置是否在本資料夾(ppt-bot)裡
+
 ![Alt text](readme/image/image2.png)
 
 在終端機輸入下面這串指令即可在資料夾裡建置好環境
@@ -32,6 +33,7 @@ unix/macos
 ## 相關套件安裝/記錄
 
 > 請先確定安裝前環境是否在虛擬環境(.venv 要存在)裡
+
 ![Alt text](readme/image/image.png)
 
 ### 安裝方式
@@ -65,4 +67,5 @@ py bot.py
 ## 使用方式
 
 輸入 **!ptt** 即可獲取最新的貼文
-![Alt text](readme/image/image3.png)
+
+![Alt text](/readme/image/image3.png)
