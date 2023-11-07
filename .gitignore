@@ -157,3 +157,6 @@ cython_debug/
 
 #Customize Environments
 setting.json
+
+# test feature
+tests

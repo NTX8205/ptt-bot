@@ -1,0 +1,24 @@
+# only for test
+tests
+
+# enviornments
+.venv
+.vscode
+.env-example
+
+# illustrate
+readme
+README.md
+
+# Customize Environments examples
+setting-example.json
+
+# git
+.git
+.gitattributes
+.gitignore
+
+# dockerfiles
+Dockerfile
+docker-compose.yml
+.dockerignore
